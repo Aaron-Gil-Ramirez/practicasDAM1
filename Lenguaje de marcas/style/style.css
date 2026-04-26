@@ -1,0 +1,175 @@
+
+/* Todo lo que no se especifique en un comentario sera los estilos en comun tanto en index.html como en eventos.html (excluyendo el header y el footer que son comunes en todas las paginas)*/
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+a:hover{
+    color: blue;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+}
+
+header img{
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+h1, h2, h3{
+    color: darkblue;
+}
+
+main{
+    flex: 1;
+}
+/*Index    Eventos*/
+#eventos, .eventos_secciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eventos_padre{
+    width: 400px;
+    height: 250px;
+    margin: 30px 15px;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    background: #f0f0f0;
+}
+
+.eventos_padre p{
+    padding: 0 15px;
+}
+
+.eventos_padre > h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.img_info_evento{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.img_info_evento > img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#sobre_nosotros{
+    margin: 30px 15px;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+/* Eventos */
+#titulo_talleres, #titulo_conferencias{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Eventos */
+#contenido_eventos{
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    position: sticky;
+    top:0;
+}
+
+/* Eventos */
+#contenido_eventos ul{
+    display: flex;
+    gap: 20px;
+}
+
+/* informacion eventos */
+.contenido_eventos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.info_evento{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+}
+
+.contenido_eventos img{
+    width: 300px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.lista_usuarios{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    padding: 20px;
+    height: auto;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+table{
+    width: 100%;
+    /* esto lo que hace es que en vez de tener espacios entre las celdas, se unen */
+    border-collapse: collapse;
+}
+
