@@ -1,0 +1,158 @@
+[{
+  "_id": 1,
+  "nombre": "María García",
+  "email": "juan.perez@example.com",
+  "contrasena": "123",
+  "rol": "participante",
+  "evento": [
+    {
+      "_id": 1
+    },
+    {
+      "_id": 3
+    }
+  ],
+  "pertenece": null,
+  "tlf": null
+},
+{
+  "_id": 2,
+  "nombre": "Juan Pérez",
+  "email": "maria.garcia@example.com",
+  "contrasena": "456",
+  "rol": "participante",
+  "evento": [
+    {
+      "_id": 1
+    },
+    {
+      "_id": 2
+    },
+    {
+      "_id": 3
+    }
+  ],
+  "pertenece": null,
+  "tlf": null
+},
+{
+  "_id": 3,
+  "nombre": "Ana López",
+  "email": "ana.lopez@example.com",
+  "contrasena": "789",
+  "rol": "participante",
+  "evento": [
+    {
+      "_id": 1
+    },
+    {
+      "_id": 2
+    },
+    {
+      "_id": 3
+    },
+    {
+      "_id": 4
+    }
+  ],
+  "pertenece": null,
+  "tlf": null
+},
+{
+  "_id": 4,
+  "nombre": "José Martínez",
+  "email": "jose.martinez@example.com",
+  "contrasena": "012",
+  "rol": "participante",
+  "evento": [
+    {
+      "_id": 2
+    }
+  ],
+  "pertenece": null,
+  "tlf": null
+},
+{
+  "_id": 5,
+  "nombre": "María López",
+  "email": "maria.lopez@example.com",
+  "contrasena": "345",
+  "rol": "participante",
+  "evento": [
+    {
+      "_id": 4
+    }
+  ],
+  "pertenece": null,
+  "tlf": null
+},
+{
+  "_id": 6,
+  "nombre": "Julian Álvarez",
+  "email": "julian.alvarez@example.com",
+  "contrasena": "678",
+  "rol": "participante",
+  "evento": [
+    {
+      "_id": 4
+    }
+  ],
+  "pertenece": null,
+  "tlf": null
+},
+{
+  "_id": 101,
+  "nombre": "Indra",
+  "email": "indra@example.com",
+  "contrasena": "901",
+  "rol": "organizador",
+  "evento": [
+    {
+      "_id": 1
+    }
+  ],
+  "pertenece": "Indra",
+  "tlf": "912345678"
+},
+{
+  "_id": 102,
+  "nombre": "ECO circular",
+  "email": "eco.circular@example.com",
+  "contrasena": "234",
+  "rol": "organizador",
+  "evento": [
+    {
+      "_id": 2
+    }
+  ],
+  "pertenece": "ECO circular",
+  "tlf": "912345679"
+},
+{
+  "_id": 103,
+  "nombre": "Empresa de Tecnología XYZ",
+  "email": "empresa.tecnologia.xyz@example.com",
+  "contrasena": "567",
+  "rol": "organizador",
+  "evento": [
+    {
+      "_id": 3
+    }
+  ],
+  "pertenece": "Empresa de Tecnología XYZ",
+  "tlf": "912345680"
+},
+{
+  "_id": 104,
+  "nombre": "ONU",
+  "email": "onu@example.com",
+  "contrasena": "890",
+  "rol": "organizador",
+  "evento": [
+    {
+      "_id": 4
+    }
+  ],
+  "pertenece": "ONU",
+  "tlf": "912345681"
+}]
