@@ -1,0 +1,99 @@
+[
+    {
+        "_id": 1,
+        "nombre": "Taller de programación",
+        "id_organizador": 101,
+        "participantes": [
+            {
+                "_id": 1
+            },
+            {
+                "_id": 2
+            },
+            {
+                "_id": 3
+            }
+        ],
+        "id_tipo": 1,
+        "f_inicio": "2026-08-22",
+        "f_fin": "2026-08-24",
+        "online": false,
+        "lugar": "Centro de Innovación, Ciudad Real",
+        "descripcion": "Participa en nuestro taller práctico de programación, donde aprenderás a desarrollar aplicaciones web con los últimos frameworks."
+    },
+    {
+        "_id": 2,
+        "nombre": "Curso IA y herramientas digitales para la Economía Circular",
+        "id_organizador": 102,
+        "participantes": [
+            {
+                "_id": 4,
+                "nombre": "José Martínez"
+            },
+            {
+                "_id": 2,
+                "nombre": "Juan Pérez"
+            },
+            {
+                "_id": 3,
+                "nombre": "Ana López"
+            }
+        ],
+        "id_tipo": 2,
+        "f_inicio": "2026-10-15",
+        "f_fin": "2026-10-17",
+        "online": true,
+        "lugar": "Aula Virtual, Plataforma de Formación Online Universidad de Ciudad Real",
+        "descripcion": "Aprende a utilizar la inteligencia artificial y las herramientas digitales para promover la economía circular en tu organización."
+    },
+    {
+        "_id": 3,
+        "nombre": "Conferencia de tecnología",
+        "id_organizador": 103,
+        "participantes": [
+            {
+                "_id": 1,
+                "nombre": "María García"
+            },
+            {
+                "_id": 2,
+                "nombre": "Juan Pérez"
+            },
+            {
+                "_id": 3,
+                "nombre": "Ana López"
+            }
+        ],
+        "id_tipo": 3,
+        "f_inicio": "2026-07-15",
+        "f_fin": "2026-07-16",
+        "online": false,
+        "lugar": "Auditorio Principal, Ciudad Real",
+        "descripcion": "Únete a nosotros para una conferencia sobre las últimas tendencias en tecnología, con ponentes expertos y oportunidades de networking."
+    },
+    {
+        "_id": 4,
+        "nombre": "Conferencia sobre el cambio climático y la sostenibilidad",
+        "id_tipo": 4,
+        "id_organizador": 104,
+        "participantes": [
+            {
+                "_id": 5,
+                "nombre": "María López"
+            },
+            {
+                "_id": 6,
+                "nombre": "Julian Álvarez"
+            },
+            {
+                "_id": 3,
+                "nombre": "Ana López"
+            }
+        ],
+        "f_inicio": "2026-09-10",
+        "f_fin": "2026-09-11",
+        "online": false,
+        "lugar": "Sala de conferencias, Ciudad Real",
+        "descripcion": "Únete a nosotros para una conferencia sobre el cambio climático y la sostenibilidad, con expertos en el tema y casos de éxito."
+    }
+]
